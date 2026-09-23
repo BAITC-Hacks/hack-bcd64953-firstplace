@@ -156,9 +156,9 @@
 Backend предусматривает отдельный AI-сервис с настройкой через:
 
 ```env
-AI_API_KEY=
-AI_MODEL=
-AI_BASE_URL=
+AI_API_KEY=XTABJZW8NLK8MMVE
+AI_MODEL=gpt-6-luna
+AI_BASE_URL=https://api.openai.com/v1
 ```
 
 Конкретный AI-провайдер и модель задаются через переменные окружения.
