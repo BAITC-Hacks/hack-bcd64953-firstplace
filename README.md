@@ -1,5 +1,7 @@
 # AI Sana Challenge Hub
 
+
+
 ## Краткое описание
 
 **AI Sana Challenge Hub** — платформа, которая помогает бизнесу превращать короткое и недостаточно проработанное описание задачи в понятную проектную заявку для студенческих команд.
@@ -84,6 +86,37 @@
 7. Если соответствие ниже установленного порога, система показывает причины и недостающие навыки.
 8. Если соответствие достигает порога, студент может отправить отклик.
 9. Статус отклика отображается в личном кабинете.
+
+---
+
+---
+
+## Интерфейс проекта
+
+### Главная страница
+
+<img width="1280" height="614" alt="image" src="https://github.com/user-attachments/assets/f931632c-31b0-4846-bcd5-2e2dc943bb05" />
+
+
+### Панель бизнеса
+
+<img width="1280" height="606" alt="image" src="https://github.com/user-attachments/assets/48b84c2c-b1e2-43b1-8912-e4caf0b67e65" />
+
+
+### Регистарция
+
+<img width="1280" height="611" alt="image" src="https://github.com/user-attachments/assets/58763a70-d463-4b31-8a0f-70b88be68ff0" />
+
+
+### Логин
+
+<img width="1280" height="608" alt="image" src="https://github.com/user-attachments/assets/0deeabcf-f2ce-4432-91ad-ffa9dc4fa6ae" />
+
+
+### Инструкция
+
+<img width="1280" height="615" alt="image" src="https://github.com/user-attachments/assets/044a7a66-ce3d-4f11-b3fd-be92d652f9aa" />
+
 
 ---
 
