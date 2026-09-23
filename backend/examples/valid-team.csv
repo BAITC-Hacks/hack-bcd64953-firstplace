@@ -1,0 +1,3 @@
+member_name,email,university,skills,experience_years,portfolio_url
+Ayan,ayan@example.com,KBTU,Python;SQL;FastAPI,2,https://example.com/portfolio
+Dana,dana@example.com,SDU,TypeScript;React;Figma,1,https://example.com/dana

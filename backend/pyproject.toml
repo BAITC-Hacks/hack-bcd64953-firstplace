@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling==1.32.4"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-sana-backend"
+version = "1.0.0"
+description = "REST API for AI Sana Challenge Hub"
+requires-python = "==3.14.7"
+dependencies = [
+  "fastapi==0.141.1",
+  "pydantic==2.13.5",
+  "pydantic-settings==2.15.0",
+  "supabase==2.31.0",
+  "pandas==3.0.6",
+  "PyJWT[crypto]==2.14.0",
+  "httpx==0.28.1",
+  "uvicorn==0.53.0",
+  "python-multipart==0.0.32",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "ruff==0.16.8", "mypy==2.3.1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+files = ["app"]
+
+[[tool.mypy.overrides]]
+module = ["pandas.*"]
+ignore_missing_imports = true
